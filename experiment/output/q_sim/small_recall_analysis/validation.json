@@ -1,0 +1,34 @@
+{
+  "validated_at": "2026-07-30T03:50:27.438869+00:00",
+  "status": "complete",
+  "sample_files": 973,
+  "nonempty_documents": 959,
+  "short_zero_row_documents": 14,
+  "short_zero_row_indices": [
+    153,
+    401,
+    415,
+    553,
+    635,
+    695,
+    711,
+    715,
+    717,
+    731,
+    797,
+    836,
+    961,
+    971
+  ],
+  "truncated_documents": 4,
+  "truncated_indices": [
+    189,
+    440,
+    694,
+    876
+  ],
+  "total_rows": 64954368,
+  "groups_per_document": 1152,
+  "danger_definition": "top ceil(20% * Q-blocks) by original-q D_adj@50% inside each document x layer x Q-head",
+  "gate_definition": "top ceil(budget * Q-blocks) by 1-selfsim inside the same group"
+}
