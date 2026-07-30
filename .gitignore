@@ -7,3 +7,15 @@ spas_sage_attn.egg-info
 .DS_Store
 inst*.cu
 /unit_test
+
+# q_sim: keep scripts and compact evidence, exclude bulky generated artifacts.
+experiment/script/q_sim/__pycache__/
+experiment/output/q_sim/smoke_*/
+experiment/output/q_sim/govreport_test_qwen3_8b_32k/samples/
+experiment/output/q_sim/govreport_test_qwen3_8b_32k/logs/
+experiment/output/q_sim/govreport_test_qwen3_8b_32k/analysis/document_metrics.csv
+experiment/output/q_sim/govreport_test_qwen3_8b_32k/analysis/document_distribution.csv
+experiment/output/q_sim/govreport_test_qwen3_8b_32k/analysis/layer_head_summary.csv
+experiment/output/q_sim/govreport_test_qwen3_8b_32k/analysis/distribution_macro.parquet
+experiment/output/q_sim/govreport_test_qwen3_8b_32k/analysis/macro_summary.parquet
+experiment/output/q_sim/govreport_test_qwen3_8b_32k/analysis/qkbar_minus_raw_bootstrap.parquet

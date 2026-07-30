@@ -1,0 +1,48 @@
+{
+  "validated_at": "2026-07-29T14:47:42.278728+00:00",
+  "status": "complete",
+  "allow_incomplete": false,
+  "expected_sample_files": 973,
+  "found_sample_files": 973,
+  "missing_sample_indices": [],
+  "observed_documents": 959,
+  "short_documents_without_eligible_qblocks": 14,
+  "short_document_indices": [
+    153,
+    401,
+    415,
+    553,
+    635,
+    695,
+    711,
+    715,
+    717,
+    731,
+    797,
+    836,
+    961,
+    971
+  ],
+  "truncated_documents": 4,
+  "truncated_document_indices": [
+    189,
+    440,
+    694,
+    876
+  ],
+  "original_tokens_total": 9290399,
+  "used_tokens_total": 9266582,
+  "restricted_nonempty_documents": 0,
+  "expected_layers_per_nonempty_document": 36,
+  "expected_q_heads_per_nonempty_document": 32,
+  "run_metadata_dataset_rows": 973,
+  "run_metadata_model_layers": 36,
+  "run_metadata_query_heads": 32,
+  "total_qblock_rows": 64954368,
+  "run_metadata_files": [
+    "/home/dangyunkai/yunkai/VLM/VIG-Group/haoyi/ICLR27/sparse_attn/SpargeAttn/experiment/output/q_sim/govreport_test_qwen3_8b_32k/manifests/shard-000-of-004.run_metadata.json",
+    "/home/dangyunkai/yunkai/VLM/VIG-Group/haoyi/ICLR27/sparse_attn/SpargeAttn/experiment/output/q_sim/govreport_test_qwen3_8b_32k/manifests/shard-001-of-004.run_metadata.json",
+    "/home/dangyunkai/yunkai/VLM/VIG-Group/haoyi/ICLR27/sparse_attn/SpargeAttn/experiment/output/q_sim/govreport_test_qwen3_8b_32k/manifests/shard-002-of-004.run_metadata.json",
+    "/home/dangyunkai/yunkai/VLM/VIG-Group/haoyi/ICLR27/sparse_attn/SpargeAttn/experiment/output/q_sim/govreport_test_qwen3_8b_32k/manifests/shard-003-of-004.run_metadata.json"
+  ]
+}
